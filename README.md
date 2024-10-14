@@ -23,7 +23,7 @@ L'intégration continue est une pratique de développement où les modifications
 Kubernetes est un système open-source qui permet de gérer des conteneurs d’applications (des petits environnements d’exécution qui regroupent tout le nécessaire pour faire tourner une application). Il automatise plusieurs tâches, comme le déploiement, la mise à l’échelle et la gestion des conteneurs. En gros, Kubernetes aide à orchestrer (ou gérer) des applications composées de nombreux conteneurs, ce qui facilite leur déploiement sur des serveurs, tout en assurant leur disponibilité et leur performance.
 
 **IoT (Internet Of Thing)**
-# ==> Reseau d'appareil leur permettant de communiquer entre eux pour ameliorer l efficacite des services
+==> Reseau d'appareil leur permettant de communiquer entre eux pour ameliorer l efficacite des services
 
 
 

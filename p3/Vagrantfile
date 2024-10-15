@@ -3,7 +3,7 @@ Vagrant.configure("2") do |config|
     alrusso.vm.box = "generic/alpine317"
     alrusso.vm.network "private_network", ip: "192.168.56.110"
     alrusso.vm.synced_folder ".", "/sync"
-    alrusso.vm.provision "ControllerScript", type: "shell", path: "./scripts/Install.sh"
+    # alrusso.vm.provision "ControllerScript", type: "shell", path: "./scripts/Install.sh"
     alrusso.vm.hostname = "alrusso"
     alrusso.vm.provider "virtualbox" do |vb|
       config.vm.network "forwarded_port", guest: 8080, host: 8080
